@@ -23,4 +23,5 @@ function myFunc() {
    else {
         alert("please fill in all fields");
   }
+}
 
