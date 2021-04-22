@@ -19,6 +19,8 @@ function myFunc() {
       let listItem = document.createElement("li");  
       listItem.innerHTML = name + " " + city + " " + " " + paymentRef + "<br>"
       list.appendChild(listItem);                   
-    } 
+    }
+   else {
+        alert("please fill in all fields");
   }
 
